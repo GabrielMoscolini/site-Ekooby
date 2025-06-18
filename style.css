@@ -3,7 +3,7 @@
     }
     body {
       margin: 0;
-      font-family: 'Inter', sans-serif;
+      font-family:"Recursive"sans-linear;
       background: #f0f7f0;
       color: #222;
       line-height: 1.5;
@@ -191,10 +191,12 @@
     }
     .product-card img {
       border-radius: 12px;
-      object-fit: contain;
+    object-fit: contain;  
       aspect-ratio: 3 / 4;
-      width: 100%;
+      width: 90%;
       background-color: #def1de;
+      height: 90%;
+     
     }
     .product-name {
       font-weight: 600;
